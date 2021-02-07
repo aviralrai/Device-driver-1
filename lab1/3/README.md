@@ -1,4 +1,4 @@
-## Saumya Prakash (CED17I043)
+##  Aviral Rai (CED17I033)
 # Intro
 This script will download the html content of webpage and get the time to download the content.
 
