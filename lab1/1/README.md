@@ -1,4 +1,4 @@
-## Saumya Prakash (CED17I043)
+## Aviral Rai (CED17I033)
 # Command used to list daemon process 
 We could find running daemons by searching for processes which run without a controlling terminal attached to them.
 ```
