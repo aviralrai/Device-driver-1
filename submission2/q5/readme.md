@@ -6,4 +6,5 @@ We have implemented hello.c program which will be compiled as a kernel module. T
 
 Output:
 insmod.jpg - inserted module
+
 rmmod.jpg - removed module
