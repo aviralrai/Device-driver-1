@@ -13,21 +13,22 @@ Whenever a key is pressed keylogger_notify is called.Here in function we are fir
 
 In order to compile and build the keylogger module; we need to create a Makefile.
 ```
-krishna@krishna:~/Module$ make
+rai@aviral:~/Module$ make
 ```
 This commmand is used to compile the souce code keylogger.c to create a module called keylogger.ko
 ```
-krishna@krishna:~/Module$ sudo insmod keylogger.ko
+rai@aviral:~/Module$ sudo insmod keylogger.ko
 ```
 This command will call init_module() which is called when the module is inserted into the kernel or loaded to the kernel.
 ```
-krishna@krishna:~/Module$ sudo rmmod keylogger.ko
+rai@aviral:~/Module$ sudo rmmod keylogger.ko
 ```
 This command will call cleanup_module() which is called just before the module is unloaded from the kernel.
 ```
-krishna@krishna:~/Module$ dmesg
+rai@aviral:~/Module$ dmesg
 ```
 This command will print the system log.
 # Ouput
 ![Screenshot](output.JPG)
+
 This is kernel log when module is loaded printing the message.
