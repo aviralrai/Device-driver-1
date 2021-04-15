@@ -1,5 +1,10 @@
-# Write a C program to capture the key strokes of capital letters.
-## I wrote the similar code which was given in the lab exercise 9,
-## In my keylogger.c file, i removed the kernel printing when i was typing any key without pressing shift key
-## With pressing shift key, i used if condition to capture only CAPITAL letters
-## I didn't change any thing in kbduskemap.h file, i only modified the keylogger.c file in such a way to print only CAPITAL letters in the log file
+## Write a C program to capture the key strokes of capital letters.
+In keylogger.c file, removed the kernel printing whenever typed any key without pressing shift key.
+ With pressing shift key, used if condition to capture only CAPITAL letters.
+Didn't change kbduskemap.h file, only modified the keylogger.c file in such a way to print only CAPITAL letters in the log file.
+## Input Terminal:
+![Screenshot](input.png)
+## Output Terminal:
+![Screenshot](output1.png)
+![Screenshot](output2.png)
+![Screenshot](output3.png)
